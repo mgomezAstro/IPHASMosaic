@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "iphasmosaic"
+version = "0.1.1"
+description = "Package to create a mosaic image from a desired IPHAS band."
+authors = [
+	"mgomezAstro <29342489+mgomezAstro@users.noreply.github.com>",
+	"Dr. Marco A. Gómez-Muñoz"
+]
+readme = "README.md"
+packages = [
+	{include = "iphasmosaic"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+montagepy = "^1.2.3"
+astropy = "^5.1.1"
+tqdm = "^4.64.1"
+aiofile = "^3.8.1"
+aiohttp = "^3.8.3"
+numpy = "^1.23.5"
+pandas = "^1.5.2"
+astroalign = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
