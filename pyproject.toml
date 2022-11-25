@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "iphasmosaic"
-version = "0.1.1"
+version = "0.2.0"
 description = "Package to create a mosaic image from a desired IPHAS band."
 authors = [
 	"mgomezAstro <29342489+mgomezAstro@users.noreply.github.com>",
