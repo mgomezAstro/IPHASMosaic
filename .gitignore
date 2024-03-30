@@ -1,6 +1,6 @@
 tests
-dist
 iphasmosaic/__pycache__
 Makefile
 .DS_Store
 ._*
+*.tar.gz
